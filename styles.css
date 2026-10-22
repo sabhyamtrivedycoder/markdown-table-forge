@@ -1,0 +1,16 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #070d19; color: #f8fafc; font-family: 'Inter', sans-serif; display: flex; flex-direction: column; min-height: 100vh; }
+.header { background: #0d172a; padding: 1rem 1.5rem; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(255,255,255,0.08); }
+.logo { display: flex; align-items: center; gap: 0.5rem; font-size: 1.25rem; font-weight: 700; color: #fbbf24; }
+.nav-portfolio { color: #fbbf24; text-decoration: none; font-size: 0.85rem; font-weight: 600; }
+.main { flex: 1; padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
+.top-bar { display: flex; gap: 0.75rem; }
+.btn { border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; cursor: pointer; }
+.btn.primary { background: #f59e0b; color: #451a03; }
+.btn.secondary { background: #1e293b; color: #94a3b8; }
+.table-container table { width: 100%; border-collapse: collapse; background: #0d172a; border-radius: 8px; overflow: hidden; }
+.table-container th, .table-container td { padding: 0.5rem; border: 1px solid rgba(255,255,255,0.08); }
+.table-container input { width: 100%; background: transparent; border: none; color: #fff; font-family: inherit; font-size: 0.85rem; outline: none; }
+.output-box pre { background: #0a1120; padding: 1rem; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: #fbbf24; overflow-x: auto; margin-top: 0.5rem; }
+footer { text-align: center; padding: 1rem; color: #64748b; font-size: 0.8rem; border-top: 1px solid rgba(255,255,255,0.05); }
+footer a { color: #fbbf24; text-decoration: none; }

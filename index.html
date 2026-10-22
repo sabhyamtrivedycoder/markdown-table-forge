@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Markdown Table Forge — Visual Table Builder</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="logo"><span>📊</span><h1>Table Forge</h1></div>
+    <a href="https://sabhyamtrivedycoder.github.io/portfolio/" target="_blank" class="nav-portfolio">Portfolio ↗</a>
+  </header>
+  <main class="main">
+    <div class="top-bar">
+      <button id="addRowBtn" class="btn secondary">+ Add Row</button>
+      <button id="addColBtn" class="btn secondary">+ Add Column</button>
+      <button id="copyBtn" class="btn primary">📋 Copy Markdown</button>
+    </div>
+    <div class="table-container" id="tableContainer"></div>
+    <div class="output-box">
+      <label>Markdown Code Output</label>
+      <pre id="mdOutput"></pre>
+    </div>
+  </main>
+  <footer>
+    <p>Engineered by <a href="https://github.com/sabhyamtrivedycoder" target="_blank">Sabhyam Trivedy</a> • MIT License</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
